@@ -1,1 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Brew & Bean | Premium Local Café</title>
+
+    <meta name="description"
+        content="Brew & Bean — premium coffee, delicious food and unforgettable moments.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="loader">
+        <div class="loader-logo">BREW<span>&</span>BEAN</div>
+        <div class="loader-line"></div>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            BREW<span>&</span>BEAN
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#menu" class="nav-btn">
+            Order Now
+        </a>
+
+        <button class="menu-toggle" aria-label="Open Menu">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span></span>
+                    YOUR LOCAL COFFEE HOUSE
+                </div>
+
+                <h1>
+                    Good Coffee.<br>
+                    <em>Great Moments.</em>
+                </h1>
+
+                <p>
+                    Freshly brewed coffee, delicious food and a cozy
+                    atmosphere made for good conversations.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="primary-btn">
+                        Explore Menu
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Visit Us
+                    </a>
+
+                </div>
+
+                <div class="hero-info">
+
+                    <div>
+                        <strong>4.9</strong>
+                        <span>★ Google Rating</span>
+                    </div>
+
+                    <div>
+                        <strong>8+</strong>
+                        <span>Years Brewing</span>
+                    </div>
+
+                    <div>
+                        <strong>10k+</strong>
+                        <span>Happy Guests</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- MARQUEE -->
+        <div class="marquee">
+
+            <div class="marquee-track">
+
+                <span>FRESHLY BREWED</span>
+                <b>✦</b>
+
+                <span>LOCALLY LOVED</span>
+                <b>✦</b>
+
+                <span>MADE WITH PASSION</span>
+                <b>✦</b>
+
+                <span>FRESHLY BREWED</span>
+                <b>✦</b>
+
+                <span>LOCALLY LOVED</span>
+                <b>✦</b>
+
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+        <section class="section menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">OUR MENU</span>
+
+                    <h2>
+                        Something for<br>
+                        <em>every mood.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    From your first morning coffee to your
+                    evening catch-up, we've got something
+                    worth staying for.
+                </p>
+
+            </div>
+
+
+            <!-- FILTER -->
+            <div class="menu-filter">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="coffee">
+                    Coffee
+                </button>
+
+                <button class="filter-btn" data-filter="food">
+                    Food
+                </button>
+
+                <button class="filter-btn" data-filter="dessert">
+                    Desserts
+                </button>
+
+            </div>
+
+
+            <!-- MENU GRID -->
+            <div class="menu-grid">
+
+
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
+                            alt="Fresh coffee">
+                        <span class="menu-tag">Popular</span>
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Signature Cappuccino</h3>
+
+                            <p>
+                                Rich espresso with silky steamed milk.
+                            </p>
+                        </div>
+
+                        <strong>₹149</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Signature Cappuccino" data-price="149">
+                        + Add
+                    </button>
+
+                </article>
+
+
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85"
+                            alt="Cold coffee">
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Caramel Cold Coffee</h3>
+
+                            <p>
+                                Chilled coffee with caramel cream.
+                            </p>
+                        </div>
+
+                        <strong>₹169</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Caramel Cold Coffee" data-price="169">
+                        + Add
+                    </button>
+
+                </article>
+
+
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+                            alt="Pizza">
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Classic Cheese Pizza</h3>
+
+                            <p>
+                                Golden crust with rich melted cheese.
+                            </p>
+                        </div>
+
+                        <strong>₹249</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Classic Cheese Pizza" data-price="249">
+                        + Add
+                    </button>
+
+                </article>
+
+
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
+                            alt="Sandwich">
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Grilled Sandwich</h3>
+
+                            <p>
+                                Fresh vegetables, cheese & herbs.
+                            </p>
+                        </div>
+
+                        <strong>₹179</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Grilled Sandwich" data-price="179">
+                        + Add
+                    </button>
+
+                </article>
+
+
+                <article class="menu-card" data-category="dessert">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+                            alt="Chocolate cake">
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Chocolate Cake</h3>
+
+                            <p>
+                                Soft chocolate cake with creamy frosting.
+                            </p>
+                        </div>
+
+                        <strong>₹159</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Chocolate Cake" data-price="159">
+                        + Add
+                    </button>
+
+                </article>
+
+
+                <article class="menu-card" data-category="dessert">
+
+                    <div class="menu-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=85"
+                            alt="Donut">
+                    </div>
+
+                    <div class="menu-details">
+
+                        <div>
+                            <h3>Glazed Donut</h3>
+
+                            <p>
+                                Soft, sweet and freshly glazed.
+                            </p>
+                        </div>
+
+                        <strong>₹99</strong>
+
+                    </div>
+
+                    <button class="add-btn" data-name="Glazed Donut" data-price="99">
+                        + Add
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SPECIAL -->
+        <section class="special-section">
+
+            <div class="special-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=1400&q=85"
+                    alt="Special coffee">
+
+            </div>
+
+            <div class="special-content">
+
+                <span class="section-label">TODAY'S SPECIAL</span>
+
+                <h2>
+                    Caramel<br>
+                    <em>Cold Brew.</em>
+                </h2>
+
+                <p>
+                    Slow brewed for 18 hours, finished with
+                    our signature caramel cream and a touch
+                    of sea salt.
+                </p>
+
+                <div class="special-price">
+                    <span>₹169</span>
+                    <small>Limited today</small>
+                </div>
+
+                <button class="primary-btn add-special">
+                    Add to Order
+                    <span>+</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+                    alt="Brew and Bean cafe">
+
+                <div class="experience-card">
+                    <strong>08</strong>
+                    <span>Years of<br>Craft</span>
+                </div>
+
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-label">OUR STORY</span>
+
+                <h2>
+                    More than<br>
+                    <em>just coffee.</em>
+                </h2>
+
+                <p>
+                    Brew & Bean started with a simple idea:
+                    create a place where great coffee and
+                    great conversations come together.
+                </p>
+
+                <p>
+                    Every cup is carefully crafted using
+                    freshly roasted beans and locally sourced
+                    ingredients.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Come say hello <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- REVIEWS -->
+        <section class="section reviews-section" id="reviews">
+
+            <div class="section-heading center">
+
+                <span class="section-label">WHAT PEOPLE SAY</span>
+
+                <h2>
+                    Loved by our<br>
+                    <em>community.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="reviews-grid">
+
+                <article class="review-card">
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                        “The coffee is amazing and the atmosphere
+                        is even better. My favorite place to work
+                        on weekends.”
+                    </p>
+
+                    <div class="reviewer">
+                        <div class="avatar">A</div>
+
+                        <div>
+                            <strong>Arjun Sharma</strong>
+                            <span>Local Guide</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="review-card featured-review">
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                        “Absolutely love this place. Great food,
+                        friendly staff and probably the best
+                        cold coffee in town.”
+                    </p>
+
+                    <div class="reviewer">
+                        <div class="avatar">P</div>
+
+                        <div>
+                            <strong>Priya Verma</strong>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">★★★★★</div>
+
+                    <p>
+                        “Perfect spot for a quick coffee or a
+                        long conversation. Highly recommended.”
+                    </p>
+
+                    <div class="reviewer">
+                        <div class="avatar">R</div>
+
+                        <div>
+                            <strong>Rahul Mehta</strong>
+                            <span>Local Customer</span>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <span class="section-label">COME VISIT</span>
+
+                <h2>
+                    Your next great<br>
+                    <em>moment starts here.</em>
+                </h2>
+
+                <div class="contact-details">
+
+                    <div>
+                        <span>📍</span>
+                        <p>
+                            21 Main Street,<br>
+                            Your City, India
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>🕐</span>
+                        <p>
+                            Mon – Sun<br>
+                            8:00 AM – 10:00 PM
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>📞</span>
+                        <p>
+                            +91 98765 43210
+                        </p>
+                    </div>
+
+                </div>
+
+                <a href="#" class="primary-btn">
+                    Get Directions
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- CART -->
+    <div class="cart">
+
+        <div class="cart-header">
+            <h3>Your Order</h3>
+            <button class="close-cart">×</button>
+        </div>
+
+        <div class="cart-items">
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+                <strong>₹0</strong>
+            </div>
+
+            <button class="whatsapp-order">
+                Order on WhatsApp ↗
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="cart-overlay"></div>
+
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="#" class="floating-whatsapp" aria-label="WhatsApp">
+        <span>💬</span>
+    </a>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-top">
+
+            <div>
+
+                <a href="#home" class="logo">
+                    BREW<span>&</span>BEAN
+                </a>
+
+                <p>
+                    Good coffee. Great moments.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>© 2026 Brew & Bean. Demo Project.</span>
+
+            <span>Designed by <strong>web.devo</strong></span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
